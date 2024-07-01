@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "categroies": "Frozen",
+    "image": "/public/images/frozen/frozen.webp",
+    "bgImg": "/images/frozen/frozen.jpg",
+    "img1": "/images/frozen/cover1.webp",
+    "product": [
+      {
+        "id": 1,
+        "img": "/images/frozen/Broccoli.webp",
+        "name": "Broccoli",
+        "productInfo": "/images/frozen/Broccoli.webp"
+      },
+      {
+        "id": 2,
+        "img": "/images/frozen/Artichokes.webp",
+        "name": "Artichokes",
+        "productInfo": "/images/frozen/Artichokes.webp"
+      },
+      {
+        "id": 3,
+        "img": "/images/frozen/chopped Green Beans.webp",
+        "name": "Chopped Green Beans",
+        "productInfo": "/images/frozen/chopped Green Beans.webp"
+      },
+      {
+        "id": 4,
+        "img": "/images/frozen/green peas.webp",
+        "name": "Green Peas",
+        "productInfo": "/images/frozen/green peas.webp"
+      },
+      {
+        "id": 5,
+        "img": "/images/frozen/Minced.webp",
+        "name": "Minced Molokhia",
+        "productInfo": "/images/frozen/Minced.webp"
+      },
+      {
+        "id": 6,
+        "img": "/images/frozen/Mixed.webp",
+        "name": "Mixed Vegetables",
+        "productInfo": "/images/frozen/Mixed.webp"
+      },
+      {
+        "id": 7,
+        "img": "/images/frozen/Okra.webp",
+        "name": "Okra",
+        "productInfo": "/images/frozen/Okra.webp"
+      },
+      {
+        "id": 8,
+        "img": "/images/frozen/Peasand Carrots.webp",
+        "name": "Peas and Carrots",
+        "productInfo": "/images/frozen/Peasand Carrots.webp"
+      },
+      {
+        "id": 9,
+        "img": "/images/frozen/Peeledbroad beans.webp",
+        "name": "Peeled Broad Beans",
+        "productInfo": "/images/frozen/Peeledbroad beans.webp"
+      },
+      {
+        "id": 10,
+        "img": "/images/frozen/Spinach.webp",
+        "name": "Spinach",
+        "productInfo": "/images/frozen/Spinach.webp"
+      },
+      {
+        "id": 11,
+        "img": "/images/frozen/Taro.webp",
+        "name": "Taro",
+        "productInfo": "/images/frozen/Taro.webp"
+      }
+    ]
+  }
+]
