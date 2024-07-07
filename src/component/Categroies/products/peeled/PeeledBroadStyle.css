@@ -1,0 +1,89 @@
+.peeledBroad-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/frozen/frozen.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.peeledBroad-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  flex-direction: row;
+}
+
+.peeledBroad-ingre {
+  background-color: rgba(74, 74, 74, 0.349);
+  border-radius: 8px;
+  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+  color: white;
+  height: auto;
+}
+
+.peeledBroad-ingre:hover {
+  background-color: rgba(74, 74, 74, 0.648);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.peeledBroad-ingre h1 {
+  font-size: 50px;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.peeledBroad-ingre p {
+  color: white;
+}
+
+.peeledBroad-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 15px;
+}
+
+.peeledBroad-data h3 {
+  color: white;
+  font-size: 35px;
+}
+
+.peeledBroad-data p {
+  color: white;
+}
+
+.peeledBroad-store {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.peeledBroadImg {
+  width: 900px;
+  height: 700px;
+}
+
+@media screen and (max-width: 1024px) {
+  .peeledBroad-body {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .peeledBroad-ingre {
+    height: auto;
+  }
+
+  .peeledBroadImg {
+    width: 100%;
+    height: auto;
+  }
+  .peeledBroad-img {
+    order: -1;
+  }
+}

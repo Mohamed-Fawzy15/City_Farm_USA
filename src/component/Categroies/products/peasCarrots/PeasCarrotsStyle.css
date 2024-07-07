@@ -1,0 +1,89 @@
+.peasCarrots-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/frozen/frozen.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.peasCarrots-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  flex-direction: row;
+}
+
+.peasCarrots-ingre {
+  background-color: rgba(74, 74, 74, 0.349);
+  border-radius: 8px;
+  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+  color: white;
+  height: auto;
+}
+
+.peasCarrots-ingre:hover {
+  background-color: rgba(74, 74, 74, 0.648);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.peasCarrots-ingre h1 {
+  font-size: 50px;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.peasCarrots-ingre p {
+  color: white;
+}
+
+.peasCarrots-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 15px;
+}
+
+.peasCarrots-data h3 {
+  color: white;
+  font-size: 35px;
+}
+
+.peasCarrots-data p {
+  color: white;
+}
+
+.peasCarrots-store {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.peasCarrotsImg {
+  width: 900px;
+  height: 700px;
+}
+
+@media screen and (max-width: 1024px) {
+  .peasCarrots-body {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .peasCarrots-ingre {
+    height: auto;
+  }
+
+  .peasCarrotsImg {
+    width: 100%;
+    height: auto;
+  }
+  .peasCarrots-img {
+    order: -1;
+  }
+}

@@ -49,7 +49,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="footerAbout">
           <h2>About Us</h2>
           <p>
             The establishment of CityFarm, a family business that is being
@@ -58,7 +58,7 @@ const Footer = () => {
             in Spices, Juices, frozen food and vegetable processing.
           </p>
         </div>
-        <div>
+        <div className="footerContact">
           <h2>Contact Us</h2>
           <p>+1 800.719.9941</p>
           <p>12 Bay 50th Street, Brooklyn, New York 11214, United States</p>
@@ -80,15 +80,12 @@ const Footer = () => {
       <hr className="footerHR" />
       <div className="socialmedia">
         <a href="https://www.linkedin.com/company/city-farm-usa/">
-          {" "}
           <img src={linkedInIcon} alt="LinkedIn" className="socialImage" />
         </a>
         <a href="https://www.facebook.com/cityfarmusa">
-          {" "}
           <img src={instgramIcon} alt="Instagram" className="socialImage" />
         </a>
         <a href="https://twitter.com/cityfarmusa">
-          {" "}
           <img src={xIcon} alt="X" className="socialImage" />
         </a>
       </div>

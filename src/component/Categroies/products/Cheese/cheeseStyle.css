@@ -1,0 +1,88 @@
+.cheese-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/snacks/snacks.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cheese-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  flex-direction: row;
+}
+
+.cheese-ingre {
+  background-color: rgba(74, 74, 74, 0.349);
+  border-radius: 8px;
+  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+  color: white;
+  height: auto;
+}
+
+.cheese-ingre:hover {
+  background-color: rgba(74, 74, 74, 0.648);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+.cheese-ingre p {
+  color: white;
+}
+
+.cheese-ingre h1 {
+  font-size: 50px;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.cheese-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 15px;
+}
+
+.cheese-data h3 {
+  color: white;
+  font-size: 35px;
+}
+
+.cheese-data p {
+  color: white;
+}
+
+.cheese-store {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.cheeseImg {
+  width: 900px;
+  height: 700px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cheese-body {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .cheese-ingre {
+    height: auto;
+  }
+
+  .cheeseImg {
+    width: 100%;
+    height: auto;
+  }
+  .cheese-img {
+    order: -1;
+  }
+}

@@ -10,42 +10,50 @@
       {
         "id": 1,
         "img": "/images/Jucies/carob.webp",
-        "name": "Carob"
+        "name": "Carob",
+        "path": "stillInProgress"
       },
       {
         "id": 2,
         "img": "/images/Jucies/cocktail.webp",
-        "name": "Cocktail"
+        "name": "Cocktail",
+        "path": "stillInProgress"
       },
       {
         "id": 3,
         "img": "/images/Jucies/doum.webp",
-        "name": "Doum"
+        "name": "Doum",
+        "path": "stillInProgress"
       },
       {
         "id": 4,
         "img": "/images/Jucies/gauva .webp",
-        "name": "Guava"
+        "name": "Guava",
+        "path": "stillInProgress"
       },
       {
         "id": 5,
         "img": "/images/Jucies/Hibiscus.webp",
-        "name": "Hibiscus"
+        "name": "Hibiscus",
+        "path": "stillInProgress"
       },
       {
         "id": 6,
         "img": "/images/Jucies/mango.webp",
-        "name": "Mango"
+        "name": "Mango",
+        "path": "stillInProgress"
       },
       {
         "id": 7,
         "img": "/images/Jucies/mint lemon.webp",
-        "name": "Mint Lemonade"
+        "name": "Mint Lemonade",
+        "path": "stillInProgress"
       },
       {
         "id": 8,
         "img": "/images/Jucies/tamarind.webp",
-        "name": "Tamarind"
+        "name": "Tamarind",
+        "path": "stillInProgress"
       }
     ]
   }
