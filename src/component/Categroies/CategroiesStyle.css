@@ -15,8 +15,8 @@
   flex: 1;
 }
 .categroiesImg img {
-  width: 50%;
-  height: 350px;
+  width: 80%;
+  height: 400px;
 }
 
 .categroiesText {
@@ -34,6 +34,7 @@
   font-size: 20px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 0em 0em;
 }
 
 .categroiesBtn:hover {
@@ -46,7 +47,7 @@
   .categroiesHolder {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: auto;
     justify-content: center;
     align-items: center;
   }
@@ -54,5 +55,25 @@
   .categroiesImg img {
     width: 70%;
     height: 250px;
+  }
+  .categroiesImg {
+    width: 100%; /* Full width for mobile */
+    display: flex; /* Centering image */
+    justify-content: center; /* Centering image */
+    margin-bottom: 20px; /* Spacing between image and text */
+  }
+
+  .categroiesImg img {
+    width: 70%;
+    height: auto; /* Adjust height to maintain aspect ratio */
+  }
+
+  .categroiesText {
+    width: 100%; /* Full width for mobile */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center align text */
   }
 }
