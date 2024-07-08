@@ -18,3 +18,13 @@
   transform: translate(0.4rem);
   margin-top: 1rem;
 }
+
+.loading-img {
+  width: 100%;
+}
+/* 
+@media screen and (max-width: 980) {
+  .loading-img {
+    width: 100px;
+  }
+} */

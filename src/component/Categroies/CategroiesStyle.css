@@ -61,7 +61,7 @@
     width: 100%; /* Full width for mobile */
     display: flex; /* Centering image */
     justify-content: center; /* Centering image */
-    margin-bottom: 20px; /* Spacing between image and text */
+    /* margin-bottom: 20px;  */
   }
 
   .categroiesImg img {
@@ -76,5 +76,8 @@
     justify-content: center;
     align-items: center;
     text-align: center; /* Center align text */
+  }
+  .responsive-category {
+    order: -1;
   }
 }

@@ -3,6 +3,10 @@
   background-color: #3c4e39;
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footerHR {
@@ -18,7 +22,7 @@
   grid-template-columns: 1fr 1fr 1fr 2fr;
   justify-content: center;
   gap: 50px;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .footerAbout h2 {

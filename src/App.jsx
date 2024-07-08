@@ -71,6 +71,7 @@ function App() {
             path="categroies/:id/stillInProgress"
             element={<StillInProgress />}
           />
+          {/* <Route path="/loading" element={<Loader />} /> */}
 
           {/* product */}
           <Route path="/product/cheese" element={<Cheese />} />

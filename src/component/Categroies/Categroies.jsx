@@ -25,18 +25,12 @@ const Categroies = () => {
     delay: 700,
   });
 
-  // const handleCompanyClick = (id, arr) => {
-  //   navigate(`/categroies/${id}`);
-  //   arr = frozen;
-  // };
-
   return (
     <div className="categories-page">
       <NavBar />
       <Container>
         <div className="categroiesHolder">
           <div className="categroiesImg">
-            {/* <img src={image} alt="Frozen Food" /> */}
             <motion.img
               src="/images/frozen/frozen.webp"
               alt="issse"
@@ -65,8 +59,7 @@ const Categroies = () => {
               Discover
             </button>
           </animated.div>
-          <div className="categroiesImg">
-            {/* <img src={image} alt="Frozen Food" /> */}
+          <div className="categroiesImg responsive-category">
             <motion.img
               src="/images/Jucies/juice.webp"
               alt="issse"
@@ -84,7 +77,6 @@ const Categroies = () => {
         <hr />
         <div className="categroiesHolder">
           <div className="categroiesImg">
-            {/* <img src={image} alt="Frozen Food" /> */}
             <motion.img
               src="/images/beans/beans.webp"
               alt="issse"
@@ -113,8 +105,7 @@ const Categroies = () => {
               Discover
             </button>
           </animated.div>
-          <div className="categroiesImg">
-            {/* <img src={image} alt="Frozen Food" /> */}
+          <div className="categroiesImg responsive-category">
             <motion.img
               src="/images/spices/spiecs.webp"
               alt="issse"
@@ -132,7 +123,6 @@ const Categroies = () => {
         <hr />
         <div className="categroiesHolder">
           <div className="categroiesImg">
-            {/* <img src={image} alt="Frozen Food" /> */}
             <motion.img
               src="/images/pickles/pickles.webp"
               alt="issse"
@@ -161,8 +151,7 @@ const Categroies = () => {
               Discover
             </button>
           </animated.div>
-          <div className="categroiesImg">
-            {/* <img src={image} alt="Frozen Food" /> */}
+          <div className="categroiesImg responsive-category">
             <motion.img
               src="/images/snacks/snacks.webp"
               alt="issse"
