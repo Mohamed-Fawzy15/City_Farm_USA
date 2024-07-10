@@ -23,32 +23,46 @@
         "id": 3,
         "img": "/images/snacks/lion cheese.webp",
         "name": "Cheese",
-        "factorImg": "/images/snacks/chipsfactors.jpg",
+        "factorImg": "/images/snacks/chipsfactors.webp",
         "path": "/product/cheese"
       },
       {
         "id": 4,
         "img": "/images/snacks/lion chili.webp",
         "name": "Chili & Lemon",
-        "factorImg": "/images/snacks/chipsfactors.jpg",
+        "factorImg": "/images/snacks/chipsfactors.webp",
         "path": "/product/chili"
       },
       {
         "id": 5,
         "img": "/images/snacks/lion kebab.webp",
         "name": "Kebab",
-        "factorImg": "/images/snacks/chipsfactors.jpg",
+        "factorImg": "/images/snacks/chipsfactors.webp",
         "path": "/product/kebab"
       },
       {
         "id": 6,
-        "img": "/images/snacks/lion katchap.png",
+        "img": "/images/snacks/lion ketchup.webp",
         "name": "Ketchup",
-        "factorImg": "/images/snacks/ketchup.jpg",
+        "factorImg": "/images/snacks/ketchup.webp",
         "path": "/product/ketchup"
       },
       {
         "id": 7,
+        "img": "/images/snacks/chipsTaki.webp",
+        "name": "Taki",
+        "factorImg": "/images/snacks/ketchup.jpg",
+        "path": "stillInProgress"
+      },
+      {
+        "id": 8,
+        "img": "/images/snacks/lion chips.webp",
+        "name": "Chili and Lemon",
+        "factorImg": "/images/snacks/ketchup.jpg",
+        "path": "stillInProgress"
+      },
+      {
+        "id": 9,
         "img": "/images/snacks/windows.webp",
         "name": "Cheese",
         "path": "stillInProgress"

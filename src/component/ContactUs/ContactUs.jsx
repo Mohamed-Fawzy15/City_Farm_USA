@@ -58,14 +58,22 @@ const ContactUs = () => {
             </p>
           </div>
           <div className="contactForm">
-            <form ref={form} onSubmit={sendEmail}>
-              <label>Name</label>
-              <input type="text" name="user_name" required />
-              <label>Email</label>
-              <input type="email" name="user_email" required />
-              <label>Message</label>
-              <textarea name="message" required />
-              <input type="submit" value="Send" />
+            <form ref={form} onSubmit={sendEmail} className="submitForm">
+              <input type="text" name="user_name" required placeholder="Name" />
+              <input
+                type="email"
+                name="user_email"
+                required
+                placeholder="Email"
+              />
+              {/* <label>Message</label> */}
+              <textarea
+                name="message"
+                required
+                className="textarea"
+                placeholder="Message"
+              />
+              <input type="submit" value="Send" className="submitBtn" />
             </form>
           </div>
         </div>
