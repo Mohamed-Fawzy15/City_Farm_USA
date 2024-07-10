@@ -1,0 +1,93 @@
+.okra-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/frozen/frozen.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.okra-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  flex-direction: row;
+}
+
+.okra-ingre {
+  background-color: rgba(74, 74, 74, 0.349);
+  border-radius: 8px;
+  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+  color: white;
+  height: auto;
+}
+
+.okra-ingre:hover {
+  background-color: rgba(74, 74, 74, 0.648);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.okra-ingre h1 {
+  font-size: 50px;
+  margin: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.okra-ingre p {
+  color: white;
+}
+
+.okra-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 15px;
+}
+
+.okra-data h3 {
+  color: white;
+  font-size: 35px;
+}
+
+.okra-data p {
+  color: white;
+}
+
+.okra-store {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.okra-store span {
+  font-size: 25px;
+}
+
+.okraImg {
+  width: 900px;
+  height: 700px;
+}
+
+@media screen and (max-width: 1024px) {
+  .okra-body {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .okra-ingre {
+    height: auto;
+  }
+
+  .okraImg {
+    width: 100%;
+    height: auto;
+  }
+  .okra-img {
+    order: -1;
+  }
+}

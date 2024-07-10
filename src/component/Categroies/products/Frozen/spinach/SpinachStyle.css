@@ -1,0 +1,92 @@
+.Spinach-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/frozen/frozen.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Spinach-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  flex-direction: row;
+}
+
+.Spinach-ingre {
+  background-color: rgba(74, 74, 74, 0.349);
+  border-radius: 8px;
+  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+  color: white;
+  height: auto;
+}
+
+.Spinach-ingre:hover {
+  background-color: rgba(74, 74, 74, 0.648);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.Spinach-ingre h1 {
+  font-size: 50px;
+  margin: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.Spinach-ingre p {
+  color: white;
+}
+
+.Spinach-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 15px;
+}
+
+.Spinach-data h3 {
+  color: white;
+  font-size: 35px;
+}
+
+.Spinach-data p {
+  color: white;
+}
+
+.Spinach-store {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Spinach-store span {
+  font-size: 25px;
+}
+.SpinachImg {
+  width: 900px;
+  height: 700px;
+}
+
+@media screen and (max-width: 1024px) {
+  .Spinach-body {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .Spinach-ingre {
+    height: auto;
+  }
+
+  .SpinachImg {
+    width: 100%;
+    height: auto;
+  }
+  .Spinach-img {
+    order: -1;
+  }
+}

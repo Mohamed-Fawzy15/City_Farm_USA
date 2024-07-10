@@ -23,25 +23,25 @@
         "id": 3,
         "img": "/images/pickles/lemon pickles.webp",
         "name": "Lemon Pickles",
-        "path": "stillInProgress"
+        "path": "/product/lemon-pickles"
       },
       {
         "id": 4,
         "img": "/images/pickles/mixed pickles.webp",
         "name": "Mixed pickles",
-        "path": "stillInProgress"
+        "path": "/product/mixed-pickles"
       },
       {
         "id": 5,
         "img": "/images/pickles/spicy lemon pickles.webp",
         "name": "Spicy Lemon Pickles",
-        "path": "stillInProgress"
+        "path": "/product/spicy-lemon-pickles"
       },
       {
         "id": 6,
         "img": "/images/pickles/spicy mixed pickles.webp",
         "name": "Spicy Mixed Pickles",
-        "path": "stillInProgress"
+        "path": "/product/spicy-mixed-pickles"
       }
     ]
   }

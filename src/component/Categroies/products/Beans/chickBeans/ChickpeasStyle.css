@@ -1,0 +1,93 @@
+.ChickPeas-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/beans/beans.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ChickPeas-body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.ChickPeas-ingre {
+  background-color: rgba(74, 74, 74, 0.349);
+  border-radius: 8px;
+  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+  color: white;
+  height: auto;
+}
+
+.ChickPeas-ingre:hover {
+  background-color: rgba(74, 74, 74, 0.648);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+.ChickPeas-ingre p {
+  color: white;
+}
+
+.ChickPeas-ingre h1 {
+  font-size: 50px;
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.ChickPeas-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 15px;
+}
+
+.ChickPeas-data h3 {
+  color: white;
+  font-size: 35px;
+}
+
+.ChickPeas-data p {
+  color: white;
+}
+
+.ChickPeas-store {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: flex-start;
+  align-items: center;
+}
+.ChickPeas-store span {
+  font-size: 20px;
+}
+.ChickPeasImg {
+  width: 100%;
+  height: 700px;
+}
+
+@media screen and (max-width: 1024px) {
+  .ChickPeas-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ChickPeas-ingre {
+    height: auto;
+  }
+
+  .ChickPeasImg {
+    width: 100%;
+    height: auto;
+  }
+  .ChickPeas-img {
+    order: -1;
+  }
+}

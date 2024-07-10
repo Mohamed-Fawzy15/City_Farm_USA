@@ -11,13 +11,13 @@
         "id": 1,
         "img": "/images/beans/chickbeans.webp",
         "name": "Chickpeas",
-        "path": "stillInProgress"
+        "path": "/product/chickbeans"
       },
       {
         "id": 2,
         "img": "/images/beans/fava beans egyptian.webp",
         "name": "Egyptian Fava Beans",
-        "path": "stillInProgress"
+        "path": "/product/egyptian-fava-beans"
       },
       {
         "id": 3,
@@ -29,25 +29,25 @@
         "id": 4,
         "img": "/images/beans/white beans.webp",
         "name": "White Beans",
-        "path": "stillInProgress"
+        "path": "/product/white-beans"
       },
       {
         "id": 5,
         "img": "/images/beans/fava beans.webp",
         "name": "Plain Beans",
-        "path": "stillInProgress"
+        "path": "/product/plain-beans"
       },
       {
         "id": 6,
         "img": "/images/beans/cooked peas.webp",
         "name": "Cooked Green Peas",
-        "path": "stillInProgress"
+        "path": "/product/cooked-green"
       },
       {
         "id": 7,
         "img": "/images/beans/hummus with tahini.webp",
         "name": "Hummas with Tahini",
-        "path": "stillInProgress"
+        "path": "/product/hummas-tahini"
       },
       {
         "id": 8,

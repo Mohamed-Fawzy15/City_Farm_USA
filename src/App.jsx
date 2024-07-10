@@ -18,44 +18,91 @@ const StillInProgress = lazy(() =>
 
 // product import
 
+//snacks
 const Cheese = lazy(() =>
-  import("./component/Categroies/products/Cheese/cheese")
+  import("./component/Categroies/products/snacks/Cheese/cheese")
 );
-const Chili = lazy(() => import("./component/Categroies/products/chili/Chili"));
-const Kebab = lazy(() => import("./component/Categroies/products/kebab/Kebab"));
-
+const Chili = lazy(() =>
+  import("./component/Categroies/products/snacks/chili/Chili")
+);
+const Kebab = lazy(() =>
+  import("./component/Categroies/products/snacks/kebab/Kebab")
+);
 const Ketchup = lazy(() =>
-  import("./component/Categroies/products/Ketchup/Ketchup")
+  import("./component/Categroies/products/snacks/Ketchup/Ketchup")
 );
+
+//frozen
 const Broccoli = lazy(() =>
-  import("./component/Categroies/products/broccoli/Broccoli")
+  import("./component/Categroies/products/Frozen/broccoli/Broccoli")
 );
 const Artichokes = lazy(() =>
-  import("./component/Categroies/products/artichokes/Artichokes")
+  import("./component/Categroies/products/Frozen/artichokes/Artichokes")
 );
 const ChoppedGreen = lazy(() =>
-  import("./component/Categroies/products/choppedGreen/ChoppedGreen")
+  import("./component/Categroies/products/Frozen/choppedGreen/ChoppedGreen")
 );
 const GreenPeas = lazy(() =>
-  import("./component/Categroies/products/greenPeas/GreenPeas")
+  import("./component/Categroies/products/Frozen/greenPeas/GreenPeas")
 );
 const MincedMolokhia = lazy(() =>
-  import("./component/Categroies/products/mincedMolokhia/MincedMolokhia")
+  import("./component/Categroies/products/Frozen/mincedMolokhia/MincedMolokhia")
 );
 const Mixed = lazy(() =>
-  import("./component/Categroies/products/mixedVegtables/Mixed")
+  import("./component/Categroies/products/Frozen/mixedVegtables/Mixed")
 );
-const Okra = lazy(() => import("./component/Categroies/products/okra/okra"));
+const Okra = lazy(() =>
+  import("./component/Categroies/products/Frozen/okra/okra")
+);
 const PeeledBroad = lazy(() =>
-  import("./component/Categroies/products/peeled/peeled")
+  import("./component/Categroies/products/Frozen/peeled/peeled")
 );
 const PeasCarrots = lazy(() =>
-  import("./component/Categroies/products/peasCarrots/PeasCarrots")
+  import("./component/Categroies/products/Frozen/peasCarrots/PeasCarrots")
 );
 const Spinach = lazy(() =>
-  import("./component/Categroies/products/spinach/Spinach")
+  import("./component/Categroies/products/Frozen/spinach/Spinach")
 );
-const Taro = lazy(() => import("./component/Categroies/products/taro/Taro"));
+const Taro = lazy(() =>
+  import("./component/Categroies/products/Frozen/taro/Taro")
+);
+
+//beans
+const ChickPeas = lazy(() =>
+  import("./component/Categroies/products/Beans/chickBeans/ChickBeans")
+);
+const Hummas = lazy(() =>
+  import("./component/Categroies/products/Beans/hummas/Hummas")
+);
+const CookedGreenPeas = lazy(() =>
+  import(
+    "./component/Categroies/products/Beans/cookedGreenPeas/CookedGreenPeas"
+  )
+);
+const WhiteBeans = lazy(() =>
+  import("./component/Categroies/products/Beans/WhiteBeans/WhiteBeans")
+);
+const PlainPeas = lazy(() =>
+  import("./component/Categroies/products/Beans/plainPeas/PlainPeas")
+);
+const EgyFavaBeans = lazy(() =>
+  import("./component/Categroies/products/Beans/EgyptianFavaBeans/EgyFavaBeans")
+);
+
+//pickles
+const MixedPickles = lazy(() =>
+  import("./component/Categroies/products/Pickles/MixedPickles")
+);
+const SpicyMixedPickles = lazy(() =>
+  import("./component/Categroies/products/Pickles/SpicyMixedPickles")
+);
+const LemonPickles = lazy(() =>
+  import("./component/Categroies/products/Pickles/LemonPickles")
+);
+const SpicyLemonPickles = lazy(() =>
+  import("./component/Categroies/products/Pickles/SpicyLemonPickles")
+);
+
 function App() {
   return (
     <div className="App">
@@ -92,6 +139,25 @@ function App() {
           <Route path="/product/taro" element={<Taro />} />
           <Route path="/product/chili" element={<Chili />} />
           <Route path="/product/kebab" element={<Kebab />} />
+          <Route path="/product/chickbeans" element={<ChickPeas />} />
+          <Route path="/product/hummas-tahini" element={<Hummas />} />
+          <Route path="/product/cooked-green" element={<CookedGreenPeas />} />
+          <Route path="/product/white-beans" element={<WhiteBeans />} />
+          <Route path="/product/plain-beans" element={<PlainPeas />} />
+          <Route
+            path="/product/egyptian-fava-beans"
+            element={<EgyFavaBeans />}
+          />
+          <Route path="/product/mixed-pickles" element={<MixedPickles />} />
+          <Route
+            path="/product/spicy-mixed-pickles"
+            element={<SpicyMixedPickles />}
+          />
+          <Route path="/product/lemon-pickles" element={<LemonPickles />} />
+          <Route
+            path="/product/spicy-lemon-pickles"
+            element={<SpicyLemonPickles />}
+          />
         </Routes>
       </Suspense>
     </div>

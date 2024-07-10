@@ -1,0 +1,93 @@
+.taro-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/frozen/frozen.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.taro-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  flex-direction: row;
+}
+
+.taro-ingre {
+  background-color: rgba(74, 74, 74, 0.349);
+  border-radius: 8px;
+  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+  color: white;
+  height: auto;
+}
+
+.taro-ingre:hover {
+  background-color: rgba(74, 74, 74, 0.648);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.taro-ingre h1 {
+  font-size: 50px;
+  margin: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.taro-ingre p {
+  color: white;
+}
+
+.taro-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 15px;
+}
+
+.taro-data h3 {
+  color: white;
+  font-size: 35px;
+}
+
+.taro-data p {
+  color: white;
+}
+
+.taro-store {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.taro-store span {
+  font-size: 25px;
+}
+
+.taroImg {
+  width: 900px;
+  height: 700px;
+}
+
+@media screen and (max-width: 1024px) {
+  .taro-body {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .taro-ingre {
+    height: auto;
+  }
+
+  .taroImg {
+    width: 100%;
+    height: auto;
+  }
+  .taro-img {
+    order: -1;
+  }
+}

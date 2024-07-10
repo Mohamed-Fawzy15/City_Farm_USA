@@ -1,0 +1,93 @@
+.frozen-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/frozen/frozen.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.frozen-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  flex-direction: row;
+}
+
+.frozen-ingre {
+  background-color: rgba(74, 74, 74, 0.349);
+  border-radius: 8px;
+  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+  color: white;
+  height: auto;
+}
+
+.frozen-ingre:hover {
+  background-color: rgba(74, 74, 74, 0.648);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.frozen-ingre h1 {
+  font-size: 50px;
+  margin: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.frozen-ingre p {
+  color: white;
+}
+
+.frozen-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 15px;
+}
+
+.frozen-data h3 {
+  color: white;
+  font-size: 35px;
+}
+
+.frozen-data p {
+  color: white;
+}
+
+.frozen-store {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.frozen-store span {
+  font-size: 25px;
+}
+
+.frozenImg {
+  width: 900px;
+  height: 700px;
+}
+
+@media screen and (max-width: 1024px) {
+  .frozen-body {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .frozen-ingre {
+    height: auto;
+  }
+
+  .frozenImg {
+    width: 100%;
+    height: auto;
+  }
+  .frozen-img {
+    order: -1;
+  }
+}
