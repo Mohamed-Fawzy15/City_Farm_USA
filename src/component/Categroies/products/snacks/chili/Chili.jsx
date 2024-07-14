@@ -34,7 +34,7 @@ function Chili() {
               dairy product thereof - Mustard and product thereof.
             </p>
             <p>
-              This Product Contains No Presrvaties, Keep Away From Heat And Sun
+              This product contains no presrvaties, Keep away from heat and sun
             </p>
           </div>
         </div>

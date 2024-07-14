@@ -15,6 +15,7 @@
   align-items: center;
   margin: 15px;
   flex-direction: row;
+  width: 80%;
 }
 
 .frozen-ingre {

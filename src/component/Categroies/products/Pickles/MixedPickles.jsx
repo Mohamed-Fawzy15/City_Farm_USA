@@ -20,12 +20,13 @@ function MixedPickles() {
           <div className="pickles-data">
             <h3>Ingredients:</h3>
             <p>Mixed Pickled - Water - Salt - Vinegar</p>
-            <h3 className="pickles-store">
-              Store: <span>(Shelf-Stable)</span>
-            </h3>
-            <p>Refrigerated After Opening</p>
+            <div className="pickles-store">
+              <h3>Store:</h3>
+              <span>(Shelf-Stable)</span>
+            </div>
+            <p>Refrigerate after opening</p>
             <p>
-              This Product Contains No Presrvaties, Keep Away From Heat And Sun
+              This product contains no presrvaties, keep away from heat and sun
             </p>
           </div>
         </div>
@@ -34,9 +35,9 @@ function MixedPickles() {
             src={
               isFirstImage
                 ? "/images/pickles/mixed pickles.webp"
-                : "/images/beans/mixedPicklesFactor.webp"
+                : "/images/pickles/mixedPicklesFactor.webp"
             }
-            alt="ChickPeas"
+            alt="mixed pickles"
             className="picklesImg"
             onClick={handleImageClick}
           />

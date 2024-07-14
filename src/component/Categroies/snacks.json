@@ -50,15 +50,15 @@
       {
         "id": 7,
         "img": "/images/snacks/chipsTaki.webp",
-        "name": "Taki",
-        "factorImg": "/images/snacks/ketchup.jpg",
+        "name": "Hot Rolled Tortilla Chips",
+        "factorImg": "/images/snacks/ketchup.webp",
         "path": "stillInProgress"
       },
       {
         "id": 8,
         "img": "/images/snacks/lion chips.webp",
-        "name": "Chili and Lemon",
-        "factorImg": "/images/snacks/ketchup.jpg",
+        "name": "Chili Lime",
+        "factorImg": "/images/snacks/ketchup.webp",
         "path": "stillInProgress"
       },
       {

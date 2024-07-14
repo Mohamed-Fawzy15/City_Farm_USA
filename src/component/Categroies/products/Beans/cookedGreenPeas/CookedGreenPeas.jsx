@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./CookedPeasStyle.css"; // Make sure to adjust the path to your CSS file
+import "./CookedPeasStyle.css";
 import NavBar from "../../../../NavBar/NavBar";
 import Footer from "../../../../Footer/Footer";
 import UpBtn from "../../../../UpBtn/UpBtn";
@@ -17,14 +17,17 @@ function CookedGreenPeas() {
       <div className="ChickPeas-body">
         <div className="ChickPeas-ingre">
           <h1>Cooked Green Peas</h1>
+          <p className="ingre-text">Ready to eat</p>
           <div className="ChickPeas-data">
             <h3>Ingredients:</h3>
             <p>Dry Peas - Water - Salt - Sugar - Cacium Chloride</p>
-            <h3 className="ChickPeas-store">
-              Store: <span>(Shelf-Stable)</span>
-            </h3>
-            <p>Refrigerated After Opening</p>
-            <p>Store in dry, good Ventilated Place.</p>
+            <div className="ChickPeas-store">
+              <h3>Store:</h3>
+              <span>(Shelf-Stable)</span>
+            </div>
+
+            <p>Refrigerate after opening</p>
+            <p>Store in dry, good ventilated place.</p>
           </div>
         </div>
         <div className="ChickPeas-img">

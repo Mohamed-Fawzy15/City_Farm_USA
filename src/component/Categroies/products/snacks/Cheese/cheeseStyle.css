@@ -16,6 +16,7 @@
   margin: 15px;
   gap: 20px;
   flex-direction: row;
+  width: 80%;
 }
 
 .cheese-ingre {
@@ -24,6 +25,7 @@
   box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
   color: white;
   height: auto;
+  width: 500px;
 }
 
 .cheese-ingre:hover {
@@ -37,7 +39,9 @@
 .cheese-ingre h1 {
   font-size: 50px;
   margin: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+  color: white;
 }
 
 .cheese-data {
@@ -66,17 +70,19 @@
 
 .cheeseImg {
   width: 100%;
-  height: 700px;
+  height: 600px;
 }
 
 @media screen and (max-width: 1024px) {
   .cheese-body {
     flex-direction: column;
     gap: 20px;
+    width: 90%;
   }
 
   .cheese-ingre {
     height: auto;
+    width: 100%;
   }
 
   .cheeseImg {

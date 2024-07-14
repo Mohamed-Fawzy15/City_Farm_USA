@@ -15,8 +15,9 @@
   justify-content: center;
   align-items: center;
   margin: 15px;
-  gap: 20px;
+  /* gap: 20px; */
   flex-direction: row;
+  width: 80%;
 }
 
 .ChickPeas-ingre {
@@ -36,10 +37,15 @@
 }
 
 .ChickPeas-ingre h1 {
-  font-size: 50px;
+  font-size: 40px;
   margin: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 5px;
   color: white;
+}
+
+.ingre-text {
+  font-size: 25px;
 }
 
 .ChickPeas-data {
@@ -69,8 +75,8 @@
   font-size: 20px;
 }
 .ChickPeasImg {
-  width: 100%;
-  height: 700px;
+  width: 120%;
+  height: 600px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -78,10 +84,12 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 90%;
   }
 
   .ChickPeas-ingre {
     height: auto;
+    width: 100%;
   }
 
   .ChickPeasImg {
