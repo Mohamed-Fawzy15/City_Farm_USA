@@ -61,7 +61,7 @@ const Footer = () => {
         <div className="footerContact">
           <h2>Contact Us</h2>
           <p>+1 800.719.9941</p>
-          <p>12 Bay 50th Street, Brooklyn, New York 11214, United States</p>
+          <p>9 Bay 50th Street, Brooklyn, New York 11214, United States</p>
         </div>
 
         <div className="footerImg">
