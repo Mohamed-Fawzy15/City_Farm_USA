@@ -25,6 +25,10 @@ function Hummas() {
               Acid - E.D.T.A Salt
             </p>
             <div className="ChickPeas-store">
+              <h3>Net weight:</h3>
+              <h4>400g</h4>
+            </div>
+            <div className="ChickPeas-store">
               <h3>Store:</h3>
               <span>(Shelf-Stable)</span>
             </div>

@@ -90,8 +90,9 @@ h4 {
   }
 }
 .productImg {
-  width: 350px;
-  height: 250px;
+  width: 100%;
+  /* height: 350px; */
+  height: 100%;
 }
 
 /* carsoul */

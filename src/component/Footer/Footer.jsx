@@ -38,12 +38,12 @@ const Footer = () => {
               </NavLink>
             </li>
             <li className="footer-menu">
-              <NavLink to="/" className="footer-links">
+              <NavLink to="/media" className="footer-links">
                 Media
               </NavLink>
             </li>
             <li className="footer-menu">
-              <NavLink to="/" className="footer-links">
+              <NavLink to="/contact" className="footer-links">
                 Contact
               </NavLink>
             </li>

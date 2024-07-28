@@ -31,6 +31,15 @@ const Kebab = lazy(() =>
 const Ketchup = lazy(() =>
   import("./component/Categroies/products/snacks/Ketchup/Ketchup")
 );
+const ChiliBreak = lazy(() =>
+  import("./component/Categroies/products/snacks/breakChili/hotBreak")
+);
+const FreshBreak = lazy(() =>
+  import("./component/Categroies/products/snacks/breakFresh/freshBreack")
+);
+const WindowsSnack = lazy(() =>
+  import("./component/Categroies/products/snacks/windowsChips/windows")
+);
 
 //frozen
 const Broccoli = lazy(() =>
@@ -137,8 +146,11 @@ function App() {
           <Route path="/product/peas-and-carrots" element={<PeasCarrots />} />
           <Route path="/product/Spinach" element={<Spinach />} />
           <Route path="/product/taro" element={<Taro />} />
-          <Route path="/product/chili" element={<Chili />} />
+          <Route path="/product/chili-break" element={<Chili />} />
           <Route path="/product/kebab" element={<Kebab />} />
+          <Route path="/product/break-chili" element={<ChiliBreak />} />
+          <Route path="/product/fresh-break" element={<FreshBreak />} />
+          <Route path="/product/windows" element={<WindowsSnack />} />
           <Route path="/product/chickbeans" element={<ChickPeas />} />
           <Route path="/product/hummas-tahini" element={<Hummas />} />
           <Route path="/product/cooked-green" element={<CookedGreenPeas />} />
