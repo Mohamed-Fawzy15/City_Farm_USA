@@ -43,7 +43,7 @@ function HotBreak() {
             src={
               isFirstImage
                 ? "/images/snacks/break hot.webp"
-                : "/public/images/snacks/breakchilifactor.webp"
+                : "/images/snacks/breakchilifactor.webp"
             }
             alt="hotBreak"
             className="hotBreakImg"
