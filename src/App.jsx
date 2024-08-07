@@ -146,9 +146,9 @@ function App() {
           <Route path="/product/peas-and-carrots" element={<PeasCarrots />} />
           <Route path="/product/Spinach" element={<Spinach />} />
           <Route path="/product/taro" element={<Taro />} />
-          <Route path="/product/chili-break" element={<Chili />} />
+          <Route path="/product/chili" element={<Chili />} />
           <Route path="/product/kebab" element={<Kebab />} />
-          <Route path="/product/break-chili" element={<ChiliBreak />} />
+          <Route path="/product/chili-break" element={<ChiliBreak />} />
           <Route path="/product/fresh-break" element={<FreshBreak />} />
           <Route path="/product/windows" element={<WindowsSnack />} />
           <Route path="/product/chickbeans" element={<ChickPeas />} />

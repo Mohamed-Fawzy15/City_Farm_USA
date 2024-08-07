@@ -101,4 +101,8 @@
   .hideimg {
     opacity: 1;
   }
+  .card-img-top {
+    width: 120%;
+    height: 240px;
+  }
 }
