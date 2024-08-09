@@ -23,7 +23,7 @@ function Kebab() {
           </p>
           <div className="kebab-data">
             <h3>Ingredients:</h3>
-            <p>Fresh Potatoes - Vegetables - Oil - Kebab Flavor</p>
+            <p>Fresh Potatoes - Vegetables Oil - Kebab Flavor</p>
             <h3>Store</h3>
             <p className="kebab-store">
               <span>(Shelf-Stable)</span>

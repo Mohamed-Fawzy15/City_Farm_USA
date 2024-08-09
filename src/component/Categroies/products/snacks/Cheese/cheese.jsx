@@ -23,7 +23,7 @@ function Cheese() {
           </p>
           <div className="cheese-data">
             <h3>Ingredients:</h3>
-            <p>Fresh Potatoes - Vegetables - Oil - Cheese Flavor</p>
+            <p>Fresh Potatoes - Vegetables Oil - Cheese Flavor</p>
             <h3>Store</h3>
             <p className="cheese-store">
               <span>(Shelf-Stable)</span>

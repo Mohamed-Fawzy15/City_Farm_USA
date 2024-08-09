@@ -23,7 +23,7 @@ function Chili() {
           </p>
           <div className="chili-data">
             <h3>Ingredients:</h3>
-            <p>Fresh Potatoes - Vegetables - Oil - Chili & Lemon Flavor</p>
+            <p>Fresh Potatoes - Vegetables Oil - Chili & Lemon Flavor</p>
             <h3>Store</h3>
             <p className="chili-store">
               <span>(Shelf-Stable)</span>

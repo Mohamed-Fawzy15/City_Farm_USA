@@ -23,7 +23,7 @@ function Ketchup() {
           </p>
           <div className="ketchup-data">
             <h3>Ingredients:</h3>
-            <p>Fresh Potatoes - Vegetables - Oil - Ketchup Flavor</p>
+            <p>Fresh Potatoes - Vegetables Oil - Ketchup Flavor</p>
             <h3>Store</h3>
             <p className="ketchup-store">
               <span>(Shelf-Stable)</span>
